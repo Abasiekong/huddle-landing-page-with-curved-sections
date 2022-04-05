@@ -22,15 +22,47 @@ img {
     max-width: 100%;
 }
 
+[illustration] {
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+
+    [illustration] {
+        width: 40%;
+    }
+
+}
+
 .container {
     width: 1125px;
     width: 90%;
     margin: auto;
 }
 
+
+@media screen and (min-width: 1024px) {
+
+    .container {
+        width: 1140px;
+        width: 80%;
+        margin: auto;
+    }
+
+}
+
 .container-flex {
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .container-flex {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
 }
 
 a {
@@ -48,6 +80,7 @@ h4,
 h5,
 h6 {
     font-family: 'Poppins', sans-serif;
+    color: var(--very-dark-cyan);
 }
 
 /* header */
@@ -55,23 +88,209 @@ h6 {
 .header-items {
     text-align: center;
     width: 80%;
-    margin-bottom: 2em;
+    margin: 2em auto;
+}
+
+@media screen and (min-width: 280px) {
+
+    .header-items {
+        width: 75%;
+    }
+    
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
+
+    .header-items {
+        width: 70%;
+    }
+    
+}
+
+@media screen and (min-width: 411px) {
+
+    .header-items {
+        width: 75%;
+    }
+    
+}
+
+@media screen and (min-width: 540px) {
+    
+    .header-items {
+        width: 60%;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .header-items {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    
+    .header-items {
+        width: 100%;
+    }
+    
 }
 
 .header-items h2 {
-    margin-bottom: 1em;
+    margin: .75em auto;
     font-size: 1.75rem;
 }
 
 .header-items p {
-    margin-bottom: 2em;
+    font-size: .625rem; 
+    padding-bottom: 2em;
+}
+
+@media screen and (min-width: 280px) {
+
+    .header-items h2 {
+        font-size: 0.875rem;
+        width: 75%;
+    }
+    
+}
+
+@media screen and (min-width: 360px) {
+
+    .header-items h2 {
+        font-size: 1.125rem;
+        width: 80%;
+
+    }
+    
+    .header-items p {
+        font-size: 0.75rem;
+    }
+
+}
+
+@media screen and (min-width: 375px) {
+    
+    .header-items h2 {
+        font-size: 1.25rem;
+        width: 80%;
+    }
+
+    .header-items p {
+        font-size: 0.8125rem;
+    }
+
+}
+
+@media screen and (min-width: 411px) {
+
+    .header-items p {
+        font-size: 0.9375rem;
+    }
+
+}
+
+@media screen and (min-width: 540px) {
+
+    .header-items h2 {
+        width: 65%;
+        margin: 0.75em auto;
+    }
+
+    .header-items p {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .header-items h2 {
+        width: 50%;
+        margin: 0.75em auto;
+    }
+    
+    .header-items p {
+        font-size: 1rem;
+        width: 70%;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+
+    .header-items h2 {
+        font-size: 1.875em;
+    }
+    
+    .header-items p {
+        font-size: 1.125em;
+        width: 50%;
+        margin: auto;
+    }
+      
+}
+
+@media screen and (min-width: 1280px) {
+
+    .header-items h2 {
+        font-size: 1.875em;
+    }
+    
+    .header-items p {
+        font-size: 1.25em;
+        width: 45%;
+        margin: auto;
+    }
+   
+}
+
+@media screen and (min-width: 1440px) {
+
+    .header-items h2 {
+        font-size: 2.25rem;
+    }
+
+    .header-items p {
+        width: 40%;
+        margin: auto;
+    }
+   
 }
 
 /* section-hero */
 
-.content-wrapper h3 {
-    font-size: 70px;
-    margin-bottom: 0.2em;
+.hero-content .content-wrapper h3 {
+    font-size: 4.375rem;
+    margin-bottom:  0.1454545em;
+}
+
+@media screen and (max-width: 360px) {
+
+    .hero-content .content-wrapper h3 {
+        font-size: 3.4375rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .hero-content .content-wrapper span {
+        font-size: 1.125rem;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .hero-content .content-wrapper span {
+        font-size: 1.25rem;
+    }
+
 }
 
 /* section-story-card */
@@ -79,39 +298,183 @@ h6 {
 .text-items {
     text-align: center;
     order: 2;
-    transform: translateY(30%);
-    margin: 4em 0;
+    margin: 4em auto;
+}
+
+@media screen and (min-width: 540px) {
+
+    .text-items {
+        width: 75%;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+
+    .text-items {
+        width: 55%;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+
+    .text-items {
+        order: 1;
+        text-align: left;
+        width: 50%;
+    }
+
+    [illustration] {
+        order: 2;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .text-items {
+        width: 49%;
+    }
 
 }
 
 .text-items h3 {
-    margin-bottom: 1em;
-    font-size: 2rem;
+    margin-bottom: .5em;
+    font-size: 1.375rem;
 } 
 
-/* buttons */
+.text-items span {
+    font-size: 0.96875em;
+}
+
+@media screen and (max-width: 360px) {
+
+    .text-items h3 {
+        font-size: 1.125rem;
+    }
+
+}
+
+@media screen and (min-width: 411px) {
+
+    .text-items span {
+        font-size: 1.0625rem;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+
+    .text-items h3 {
+        font-size: 1.625rem;
+    }
+    
+    .text-items span {
+        font-size: 1.125rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .text-items h3 {
+        font-size: 1.75rem;
+    }
+    
+    .text-items span {
+        font-size: 1.25rem;
+    }
+}
+
+/* section-build-community */
+
+
+.section-build-community h2 {
+    margin: 1em auto;
+}
+
+@media screen and (max-width: 360px) {
+
+    .section-build-community h2 {
+        font-size: 1.125rem;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+
+    .section-build-community h2 {
+        width: 75%;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .section-build-community h2 {
+        font-size: 2rem;
+    }
+
+}
+
+/* =================
+    buttons 
+====================*/
 
 .btn-tryIt {
-    font-size: 1.125rem;
+    font-size: 1rem;
     color: var(--light-pink);
     border: 1px solid var(--light-pink);
     border-radius: 50px;
-    padding: 8px 16px;
+    padding: .5rem 1em;
+}
+
+@media screen and (max-width: 360px) {
+
+    .btn-tryIt {
+        font-size: .7rem;
+        font-weight: 600;
+    }
+
 }
 
 .getStarted {
     display: inline-block;
     color: #ffffff;
-    background-color: var(--light-pink);
+    background-color: var(--pink);
     font-weight: 700;
-    padding: 15px 30px;
+    padding: 1em 2em;
     border-radius: 50px;
+    box-shadow: 0px 3px 5px 1px #aaaaaa;
 }
 
-/* form */
+.getStarted:active {
+    background-color: var(--light-pink);
+}
+
+@media screen and (max-width: 360px) {
+
+    .getStarted {
+        font-size: .75rem;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+
+    .getStarted {
+        font-size: 1.125rem;
+    }
+    
+}
+
+
+/* ==================
+    form 
+=====================*/
 
 [subscribe-form] {
-    margin-bottom: 2em;
+    margin-bottom: 4em;
 }
 
 [input-field] {
@@ -122,14 +485,53 @@ h6 {
     margin-bottom: .75em;
 }
 
+[input-field]:focus {
+    border: 1px solid var(--light-red);
+}
+
+@media screen and (min-width: 768px) {
+
+    [input-field] {
+        width: 60%;
+    }
+    
+}
+
 [submit-btn] {
+    font-size: 0.875rem;
     color: #ffffff;
-    background-color: var(--light-pink);
+    background-color: var(--pink);
     font-weight: 700;
     border-radius: 5px;
     border: none;
     align-self: flex-end;
-    padding: 12px 20px;
+    padding: 0.85714em 1.42857em;
+}
+
+[submit-btn]:active {
+    background-color: var(--light-pink);
+}
+
+@media screen and (max-width: 360px) {
+    
+    [submit-btn] {
+        font-size: 0.75rem;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+
+    .input-button-wrapper {
+        flex-direction: row;
+        align-items: baseline;
+    }
+    
+    [submit-btn] {
+        align-self: unset;
+        margin-left: 3em;
+    }
+
 }
 
 form h3 {
@@ -137,8 +539,44 @@ form h3 {
     margin-bottom: .75em;
 }
 
-form p {
+form p,
+.contact-info p {
+    font-size: .75rem;
     margin-bottom: 1em;
+    display: block;
+}
+
+form p span {
+    display: inline-block;
+}
+
+@media screen and (max-width: 360px) {
+
+    form p,
+    .contact-info p {
+        font-weight: normal;
+    } 
+    
+}
+
+@media screen and (min-width: 1024px) {
+    
+    form p,
+    .contact-info p {
+        width: 60%;
+        font-weight: 600;
+        font-size: 0.875rem;
+    } 
+
+}
+
+@media screen and (min-width: 1280px) {
+    
+    form p,
+    .contact-info p {
+        font-size: 0.875rem;
+    } 
+
 }
 
 /* ======================
@@ -156,23 +594,29 @@ form p {
 
 /* header */
 
-header {
-    height: 95vh;
-}
 
 .logo-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2em 1em;
+    margin: 0 1em;
 }
 
 .logo {
-    height: 24px;
+    height: 20px;
+}
+
+@media screen and (max-width: 360px) {
+    
+    .logo {
+        height: 12px;
+    }
+    
 }
 
 .top {
-    transform: translateY(30%);
+    margin: 6.25em 0;
 }
 
 /* section-hero */
@@ -180,6 +624,15 @@ header {
 .hero-content {
     padding: 2em 0;
     text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .hero-content {
+        width: 60%;
+        margin: 2em auto;
+    }
+
 }
 
 .content-wrapper {
@@ -192,12 +645,19 @@ header {
     margin-bottom: 0.75em;
 }
 
+@media screen and (max-width: 360px) {
+
+    .content-wrapper img {
+        transform: translateX(-125%);
+    }
+
+}
 /* section-story-card */ 
 
 .story-card-grow-together,
 .story-card-conversations,
 .story-card-users {
-    padding: 6em 0;
+    padding: 5em 0;
 }
 
 .story-card-grow-together,
@@ -205,15 +665,23 @@ header {
     background-color: var(--very-pale-blue);
 }
 
+@media screen and (min-width: 1024px) {
+
+    .story-card-conversations .text-items {
+        order: 2;
+    }
+
+    .story-card-conversations [illustration] {
+        order: 1;
+    }
+
+}
+
 /* section-build-community */
 
 .section-build-community {
     padding: 6em 0;
     text-align: center;
-}
-
-.section-build-community h2 {
-    margin: 1em;
 }
 
 /* footer */
@@ -228,8 +696,19 @@ header {
     order: 2;
 }
 
-.contact-info p {
-    margin-bottom: 1em;
+@media screen and (min-width: 1024px) {
+
+    .contact-info {
+        order: 1;
+        width: 40%;
+        
+    }
+
+    [subscribe-form] {
+        order: 2;
+        width: 50%;
+    }
+
 }
 
 .footer-item-wrapper .logo {
@@ -237,7 +716,16 @@ header {
 }
 
 address {
+    font-size: .85rem;
     font-style: normal;
+}
+
+@media screen and (min-width: 1024px) {
+
+    address.container-flex {
+        flex-direction: column;
+    }
+
 }
 
 address img {
