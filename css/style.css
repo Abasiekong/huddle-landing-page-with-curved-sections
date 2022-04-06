@@ -417,8 +417,12 @@ h6 {
 
 }
 
+/* ======================
+    Typography: end
+====================== */
+
 /* =================
-    buttons 
+    Buttons 
 ====================*/
 
 .btn-tryIt {
@@ -468,10 +472,13 @@ h6 {
     
 }
 
+/* ======================
+    Buttons: end
+====================== */
 
 /* ==================
-    form 
-=====================*/
+    Form 
+===================== */
 
 [subscribe-form] {
     margin-bottom: 4em;
@@ -542,7 +549,7 @@ form h3 {
 form p,
 .contact-info p {
     font-size: .75rem;
-    margin-bottom: 1em;
+    margin-bottom: 1.285714em;
     display: block;
 }
 
@@ -564,7 +571,7 @@ form p span {
     form p,
     .contact-info p {
         width: 60%;
-        font-weight: 600;
+        font-weight: 400;
         font-size: 0.875rem;
     } 
 
@@ -580,6 +587,10 @@ form p span {
 }
 
 /* ======================
+    Form: end
+====================== */
+
+/* ======================
     Icons
 ====================== */
 
@@ -587,6 +598,12 @@ form p span {
     width: 100%;
     margin-bottom: -10px; 
 }
+
+/* ======================
+    Icons: end
+====================== */
+
+
 
 /* ======================
     Sections
@@ -618,6 +635,8 @@ form p span {
 .top {
     margin: 6.25em 0;
 }
+
+/* ======== header: end ======== */
 
 /* section-hero */
 
@@ -652,6 +671,9 @@ form p span {
     }
 
 }
+
+/* ======== section-hero: end ======== */
+
 /* section-story-card */ 
 
 .story-card-grow-together,
@@ -677,12 +699,16 @@ form p span {
 
 }
 
+/* ======== section-story-card: end ======== */
+
 /* section-build-community */
 
 .section-build-community {
     padding: 6em 0;
     text-align: center;
 }
+
+/* ======== section-build-communnity: end ======== */
 
 /* footer */
 
@@ -700,8 +726,7 @@ form p span {
 
     .contact-info {
         order: 1;
-        width: 40%;
-        
+        width: 40%;    
     }
 
     [subscribe-form] {
@@ -735,6 +760,8 @@ address img {
 address .phone,
 address .email {
     display: inline-flex;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     align-items: center;
 }
+
+/* ======== footer: end ======== */
