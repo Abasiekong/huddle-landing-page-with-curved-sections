@@ -83,6 +83,76 @@ h6 {
     color: var(--very-dark-cyan);
 }
 
+
+.main-heading {
+    margin: .75em auto;
+    font-size: 1.75rem;
+}
+
+@media screen and (min-width: 280px) {
+
+    .main-heading {
+        font-size: 0.875rem;
+    }
+    
+}
+
+@media screen and (min-width: 360px) {
+
+    .main-heading {
+        font-size: 1.125rem;
+    }
+
+}
+
+@media screen and (min-width: 375px) {
+    
+    .main-heading {
+        font-size: 1.25rem;
+    }
+
+}
+
+@media screen and (min-width: 540px) {
+
+    .main-heading {
+        margin: 0.75em auto;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .main-heading {
+        margin: 0.75em auto;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+
+    .main-heading {
+        font-size: 1.875em;
+    }
+      
+}
+
+@media screen and (min-width: 1280px) {
+
+    .main-heading {
+        font-size: 1.875em;
+    }
+   
+}
+
+@media screen and (min-width: 1440px) {
+
+    .main-heading {
+        font-size: 2.25rem;
+    }
+   
+}
+
 /* header */
 
 .header-items {
@@ -141,7 +211,6 @@ h6 {
 
 .header-items h2 {
     margin: .75em auto;
-    font-size: 1.75rem;
 }
 
 .header-items p {
@@ -443,6 +512,7 @@ h6 {
 }
 
 .getStarted {
+    font-size: 0.6875rem;
     display: inline-block;
     color: #ffffff;
     background-color: var(--pink);
@@ -456,7 +526,7 @@ h6 {
     background-color: var(--light-pink);
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 360px) {
 
     .getStarted {
         font-size: .75rem;
@@ -464,7 +534,23 @@ h6 {
     
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 411px) {
+
+    .getStarted {
+        font-size: .875rem;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+
+    .getStarted {
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (min-width: 1280px) {
 
     .getStarted {
         font-size: 1.125rem;
@@ -571,7 +657,7 @@ form p span {
     form p,
     .contact-info p {
         width: 60%;
-        font-weight: 400;
+        font-weight: 500;
         font-size: 0.875rem;
     } 
 
