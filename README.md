@@ -51,13 +51,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -66,7 +61,10 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<picture>
+  <source media="(min-width: 768px)" srcset="images/bg-footer-top-desktop.svg">
+  <img src="images/bg-footer-top-mobile.svg" class="section-wave-svg" alt="">
+</picture>>
 ```
 ```css
 .proud-of-this-css {
