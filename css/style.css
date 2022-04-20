@@ -22,20 +22,20 @@ img {
     max-width: 100%;
 }
 
-[illustration] {
+.illustration {
     width: 100%;
 }
 
 @media screen and (min-width: 1024px) {
 
-    [illustration] {
-        width: 40%;
+    .illustration {
+        width: 45%;
     }
 
 }
 
 .container {
-    width: 1125px;
+    max-width: 1125px;
     width: 90%;
     margin: auto;
 }
@@ -44,9 +44,17 @@ img {
 @media screen and (min-width: 1024px) {
 
     .container {
-        width: 1140px;
+        max-width: 1140px;
         width: 80%;
         margin: auto;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .container {
+        width: 95%;
     }
 
 }
@@ -83,112 +91,51 @@ h6 {
     color: var(--very-dark-cyan);
 }
 
-
-.main-heading {
-    margin: .75em auto;
-    font-size: 1.75rem;
-}
-
-@media screen and (min-width: 280px) {
-
-    .main-heading {
-        font-size: 0.875rem;
-    }
-    
-}
-
-@media screen and (min-width: 360px) {
-
-    .main-heading {
-        font-size: 1.125rem;
-    }
-
-}
-
-@media screen and (min-width: 375px) {
-    
-    .main-heading {
-        font-size: 1.25rem;
-    }
-
-}
-
-@media screen and (min-width: 540px) {
-
-    .main-heading {
-        margin: 0.75em auto;
-    }
-
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    
-    .main-heading {
-        margin: 0.75em auto;
-    }
-    
-}
-
-@media screen and (min-width: 1024px) {
-
-    .main-heading {
-        font-size: 1.875em;
-    }
-      
-}
-
-@media screen and (min-width: 1280px) {
-
-    .main-heading {
-        font-size: 1.875em;
-    }
-   
-}
-
-@media screen and (min-width: 1440px) {
-
-    .main-heading {
-        font-size: 2.25rem;
-    }
-   
-}
-
 /* header */
 
 .header-items {
     text-align: center;
-    width: 80%;
+    width: 75%;
     margin: 2em auto;
-}
-
-@media screen and (min-width: 280px) {
-
-    .header-items {
-        width: 75%;
-    }
-    
+    max-width: 875px;
 }
 
 @media screen and (min-width: 360px) and (max-width: 374px) {
 
     .header-items {
-        width: 70%;
+        width: 85%;
     }
     
 }
 
-@media screen and (min-width: 411px) {
+@media screen and (min-width: 375px) and (max-width: 410px) {
 
     .header-items {
-        width: 75%;
+        width: 80%;
     }
     
 }
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 411px) and (max-width: 539px) {
+
+    .header-items {
+        width: 80%;
+    }
+    
+}
+
+@media screen and (min-width: 540px) and (max-width: 767px) {
     
     .header-items {
-        width: 60%;
+        width: 65%;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .header-items {
+        width: 50%;
     }
     
 }
@@ -196,21 +143,15 @@ h6 {
 @media screen and (min-width: 1024px) {
     
     .header-items {
-        width: 100%;
+        max-width: 100%;
     }
     
 }
 
-@media screen and (min-width: 1440px) {
-    
-    .header-items {
-        width: 100%;
-    }
-    
-}
-
-.header-items h2 {
+.header-items h1 {
+    font-size: 1.125rem;
     margin: .75em auto;
+    max-width: 795px;
 }
 
 .header-items p {
@@ -218,43 +159,37 @@ h6 {
     padding-bottom: 2em;
 }
 
-@media screen and (min-width: 280px) {
+@media screen and (min-width: 360px) and (max-width: 374px) {
 
-    .header-items h2 {
+    .header-items h1 {
+        font-size: 1.375rem;
+        width: 80%;
+
+    }
+    
+    .header-items p {
         font-size: 0.875rem;
-        width: 75%;
-    }
-    
-}
-
-@media screen and (min-width: 360px) {
-
-    .header-items h2 {
-        font-size: 1.125rem;
-        width: 80%;
-
-    }
-    
-    .header-items p {
-        font-size: 0.75rem;
     }
 
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 410px) {
     
-    .header-items h2 {
-        font-size: 1.25rem;
-        width: 80%;
+    .header-items h1 {
+        font-size: 1.375rem;
     }
 
     .header-items p {
-        font-size: 0.8125rem;
+        font-size: 0.875rem;
     }
 
 }
 
-@media screen and (min-width: 411px) {
+@media screen and (min-width: 411px) and (max-width: 539px) {
+
+    .header-items h1 {
+        font-size: 1.5rem;
+    }
 
     .header-items p {
         font-size: 0.9375rem;
@@ -262,11 +197,10 @@ h6 {
 
 }
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 540px) and (max-width: 767px) {
 
-    .header-items h2 {
-        width: 65%;
-        margin: 0.75em auto;
+    .header-items h1 {
+        font-size: 1.625rem;
     }
 
     .header-items p {
@@ -277,28 +211,27 @@ h6 {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     
-    .header-items h2 {
-        width: 50%;
-        margin: 0.75em auto;
+    .header-items h1 {
+        font-size: 2.125rem;
     }
     
     .header-items p {
-        font-size: 1rem;
-        width: 70%;
-        margin: auto;
+        font-size: 1.125rem;
     }
     
 }
 
 @media screen and (min-width: 1024px) {
 
-    .header-items h2 {
-        font-size: 1.875em;
+    .header-items h1 {
+        font-size: 2.25rem;
+        max-width: 100%;
     }
     
     .header-items p {
-        font-size: 1.125em;
-        width: 50%;
+        font-size: 1.25em;
+        max-width: 100%;
+        width: 590px;
         margin: auto;
     }
       
@@ -306,29 +239,18 @@ h6 {
 
 @media screen and (min-width: 1280px) {
 
-    .header-items h2 {
-        font-size: 1.875em;
-    }
-    
-    .header-items p {
-        font-size: 1.25em;
-        width: 45%;
-        margin: auto;
+    .header-items h1 {
+        font-size: 2.375rem;
     }
    
 }
 
 @media screen and (min-width: 1440px) {
 
-    .header-items h2 {
-        font-size: 2.25rem;
+    .header-items h1 {
+        font-size: 2.875rem;
     }
 
-    .header-items p {
-        width: 40%;
-        margin: auto;
-    }
-   
 }
 
 /* section-hero */
@@ -359,7 +281,7 @@ h6 {
     .hero-content .content-wrapper span {
         font-size: 1.25rem;
     }
-
+    
 }
 
 /* section-story-card */
@@ -368,42 +290,44 @@ h6 {
     text-align: center;
     order: 2;
     margin: 4em auto;
+    max-width: 515px;
 }
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 411px) and (max-width: 539px) {
 
     .text-items {
-        width: 75%;
+        width: 90%;
     }
     
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 540px) and (max-width: 767px) {
 
     .text-items {
-        width: 55%;
+        width: 70%;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .text-items {
+        width: 53%;
     }
     
 }
 
 @media screen and (min-width: 1024px) {
-
+    
     .text-items {
         order: 1;
         text-align: left;
-        width: 50%;
+        align-self: center;
+        margin: 0 2em;
     }
 
-    [illustration] {
+    .illustration {
         order: 2;
-    }
-
-}
-
-@media screen and (min-width: 1440px) {
-
-    .text-items {
-        width: 49%;
     }
 
 }
@@ -414,45 +338,41 @@ h6 {
 } 
 
 .text-items span {
-    font-size: 0.96875em;
+    font-size: 0.9375rem;
 }
+
+
 
 @media screen and (max-width: 360px) {
 
     .text-items h3 {
-        font-size: 1.125rem;
+        font-size: 1rem;
     }
-
-}
-
-@media screen and (min-width: 411px) {
 
     .text-items span {
-        font-size: 1.0625rem;
+        font-size: 0.6875rem;
     }
-    
+
 }
 
 @media screen and (min-width: 768px) {
-
-    .text-items h3 {
-        font-size: 1.625rem;
-    }
-    
-    .text-items span {
-        font-size: 1.125rem;
-    }
-}
-
-@media screen and (min-width: 1440px) {
 
     .text-items h3 {
         font-size: 1.75rem;
     }
     
     .text-items span {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .text-items h3 {
+        font-size: 1.75rem;
+    }
+    
 }
 
 /* section-build-community */
@@ -478,10 +398,35 @@ h6 {
 
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .section-build-community h2 {
+        font-size: 1.75rem;
+        width: 60%;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .section-build-community h2 {
+        font-size: 1.875rem;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
 
     .section-build-community h2 {
         font-size: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .section-build-community h2 {
+        font-size: 2.125rem;
     }
 
 }
@@ -566,11 +511,11 @@ h6 {
     Form 
 ===================== */
 
-[subscribe-form] {
+.subscribe-form {
     margin-bottom: 4em;
 }
 
-[input-field] {
+.input-field {
     width: 100%;
     padding: 10px;
     border-radius: 5px;
@@ -578,19 +523,19 @@ h6 {
     margin-bottom: .75em;
 }
 
-[input-field]:focus {
+.input-field:focus {
     border: 1px solid var(--light-red);
 }
 
 @media screen and (min-width: 768px) {
 
-    [input-field] {
-        width: 60%;
+    .input-field {
+        width: 65%;
     }
     
 }
 
-[submit-btn] {
+.submit-btn {
     font-size: 0.875rem;
     color: #ffffff;
     background-color: var(--pink);
@@ -601,7 +546,7 @@ h6 {
     padding: 0.85714em 1.42857em;
 }
 
-[submit-btn]:active {
+.submit-btn:active {
     background-color: var(--light-pink);
 }
 
@@ -620,7 +565,7 @@ h6 {
         align-items: baseline;
     }
     
-    [submit-btn] {
+    .submit-btn {
         align-self: unset;
         margin-left: 3em;
     }
@@ -647,7 +592,7 @@ form p span {
 
     form p,
     .contact-info p {
-        font-weight: normal;
+        font-weight: 400;
     } 
     
 }
@@ -656,18 +601,17 @@ form p span {
     
     form p,
     .contact-info p {
-        width: 60%;
-        font-weight: 500;
         font-size: 0.875rem;
+        font-weight: 600;
     } 
-
+    
 }
 
 @media screen and (min-width: 1280px) {
     
     form p,
     .contact-info p {
-        font-size: 0.875rem;
+        width: 85%;
     } 
 
 }
@@ -680,7 +624,7 @@ form p span {
     Icons
 ====================== */
 
-[section-wave-svg] {
+.section-wave-svg {
     width: 100%;
     margin-bottom: -10px; 
 }
@@ -779,7 +723,7 @@ form p span {
         order: 2;
     }
 
-    .story-card-conversations [illustration] {
+    .story-card-conversations .illustration {
         order: 1;
     }
 
@@ -801,7 +745,7 @@ form p span {
 .footer-item-wrapper {
     color: #ffffff;
     background-color: var(--very-dark-cyan);
-    padding: 4em 0;
+    padding: 4em;
 }
 
 .contact-info {
@@ -815,7 +759,7 @@ form p span {
         width: 40%;    
     }
 
-    [subscribe-form] {
+    .subscribe-form {
         order: 2;
         width: 50%;
     }
