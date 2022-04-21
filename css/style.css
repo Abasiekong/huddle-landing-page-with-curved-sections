@@ -95,7 +95,7 @@ h6 {
 
 .header-items {
     text-align: center;
-    width: 75%;
+    width: 80%;
     margin: 2em auto;
     max-width: 875px;
 }
@@ -108,18 +108,18 @@ h6 {
     
 }
 
-@media screen and (min-width: 375px) and (max-width: 410px) {
+@media screen and (min-width: 375px) and (max-width: 424px) {
 
     .header-items {
-        width: 80%;
+        width: 75%;
     }
     
 }
 
-@media screen and (min-width: 411px) and (max-width: 539px) {
+@media screen and (min-width: 425px) and (max-width: 539px) {
 
     .header-items {
-        width: 80%;
+        width: 75%;
     }
     
 }
@@ -127,7 +127,7 @@ h6 {
 @media screen and (min-width: 540px) and (max-width: 767px) {
     
     .header-items {
-        width: 65%;
+        width: 60%;
     }
     
 }
@@ -173,7 +173,7 @@ h6 {
 
 }
 
-@media screen and (min-width: 375px) and (max-width: 410px) {
+@media screen and (min-width: 375px) and (max-width: 424px) {
     
     .header-items h1 {
         font-size: 1.375rem;
@@ -185,10 +185,10 @@ h6 {
 
 }
 
-@media screen and (min-width: 411px) and (max-width: 539px) {
+@media screen and (min-width: 425px) and (max-width: 539px) {
 
     .header-items h1 {
-        font-size: 1.5rem;
+        font-size: 1.625rem;
     }
 
     .header-items p {
@@ -293,7 +293,7 @@ h6 {
     max-width: 515px;
 }
 
-@media screen and (min-width: 411px) and (max-width: 539px) {
+@media screen and (min-width: 425px) and (max-width: 539px) {
 
     .text-items {
         width: 90%;
@@ -479,7 +479,7 @@ h6 {
     
 }
 
-@media screen and (min-width: 411px) {
+@media screen and (min-width: 425px) {
 
     .getStarted {
         font-size: .875rem;
@@ -611,7 +611,7 @@ form p span {
     
     form p,
     .contact-info p {
-        width: 85%;
+        width: 340px;
     } 
 
 }
@@ -628,6 +628,31 @@ form p span {
     width: 100%;
     margin-bottom: -10px; 
 }
+
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-instagram {
+    font-size: 24px;
+    margin: 10px 10px 0 0;
+    color: #ffffff;
+}
+
+.fa-facebook-square:active,
+.fa-twitter-square:active,
+.fa-instagram:active {
+    color: hsl(170, 100%, 92%);
+}
+
+@media screen and (min-width: 1024px) {
+
+    .fa-facebook-square,
+    .fa-twitter-square,
+    .fa-instagram {
+        font-size: 36px;
+    }
+
+}
+
 
 /* ======================
     Icons: end
@@ -745,7 +770,15 @@ form p span {
 .footer-item-wrapper {
     color: #ffffff;
     background-color: var(--very-dark-cyan);
-    padding: 4em;
+    padding: 4em 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .footer-item-wrapper {
+        padding: 4em;
+    }
+
 }
 
 .contact-info {
