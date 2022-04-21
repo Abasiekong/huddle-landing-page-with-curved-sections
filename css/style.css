@@ -255,14 +255,14 @@ h6 {
 
 /* section-hero */
 
-.hero-content .content-wrapper h3 {
+.hero-content .content-wrapper h2 {
     font-size: 4.375rem;
     margin-bottom:  0.1454545em;
 }
 
 @media screen and (max-width: 360px) {
 
-    .hero-content .content-wrapper h3 {
+    .hero-content .content-wrapper h2 {
         font-size: 3.4375rem;
     }
 
@@ -333,7 +333,7 @@ h6 {
 }
 
 .text-items h3 {
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
     font-size: 1.375rem;
 } 
 
