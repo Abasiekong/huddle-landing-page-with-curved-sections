@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-H1lJp3REc
 - Live Site URL: https://abasiekong.github.io/huddle-landing-page-with-curved-sections/
 
 ## My process
@@ -42,7 +42,6 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
