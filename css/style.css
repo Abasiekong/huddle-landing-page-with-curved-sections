@@ -109,18 +109,10 @@ h6 {
     max-width: 875px;
 }
 
-@media screen and (min-width: 360px) and (max-width: 374px) {
+@media screen and (min-width: 360px) and (max-width: 424px) {
 
     .header-items {
-        width: 18.125em;
-    }
-    
-}
-
-@media screen and (min-width: 375px) and (max-width: 424px) {
-
-    .header-items {
-        width: 17.5625em;
+        width: 18.4375em;
     }
     
 }
