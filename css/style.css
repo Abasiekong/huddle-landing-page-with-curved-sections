@@ -263,6 +263,8 @@ h6 {
 
 }
 
+/* ======== header: end ======== */
+
 /* section-hero */
 
 .hero-content .content-wrapper h2 {
@@ -293,6 +295,8 @@ h6 {
     }
     
 }
+
+/* ======== section-hero: end ======== */
 
 /* section-story-card */
 
@@ -392,8 +396,9 @@ h6 {
     
 }
 
-/* section-build-community */
+/* ======== section-story-card: end ======== */
 
+/* section-build-community */
 
 .section-build-community h2 {
     margin: 1em auto;
@@ -447,6 +452,8 @@ h6 {
     }
 
 }
+
+/* ======== section-build-community: end ======== */
 
 /* ======================
     Typography: end
