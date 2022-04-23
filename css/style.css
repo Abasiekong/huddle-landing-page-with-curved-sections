@@ -26,6 +26,15 @@ img {
     width: 100%;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .illustration {
+        width: 70%;
+        margin: auto;
+    }
+
+}
+
 @media screen and (min-width: 1024px) {
 
     .illustration {
@@ -95,7 +104,7 @@ h6 {
 
 .header-items {
     text-align: center;
-    width: 80%;
+    width: 13.125em;
     margin: 2em auto;
     max-width: 875px;
 }
@@ -103,7 +112,7 @@ h6 {
 @media screen and (min-width: 360px) and (max-width: 374px) {
 
     .header-items {
-        width: 85%;
+        width: 18.125em;
     }
     
 }
@@ -111,7 +120,7 @@ h6 {
 @media screen and (min-width: 375px) and (max-width: 424px) {
 
     .header-items {
-        width: 75%;
+        width: 17.5625em;
     }
     
 }
@@ -119,7 +128,7 @@ h6 {
 @media screen and (min-width: 425px) and (max-width: 539px) {
 
     .header-items {
-        width: 75%;
+        width: 20em;
     }
     
 }
@@ -127,7 +136,7 @@ h6 {
 @media screen and (min-width: 540px) and (max-width: 767px) {
     
     .header-items {
-        width: 65%;
+        width: 20.3125em;
     }
     
 }
@@ -135,7 +144,7 @@ h6 {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     
     .header-items {
-        width: 50%;
+        width: 24em;
     }
     
 }
@@ -144,6 +153,7 @@ h6 {
     
     .header-items {
         max-width: 100%;
+        width: 100%;
     }
     
 }
@@ -296,7 +306,7 @@ h6 {
 @media screen and (min-width: 425px) and (max-width: 539px) {
 
     .text-items {
-        width: 90%;
+        width: 20.3125em;
     }
     
 }
@@ -304,7 +314,7 @@ h6 {
 @media screen and (min-width: 540px) and (max-width: 767px) {
 
     .text-items {
-        width: 70%;
+        width: 19.6875em;
     }
     
 }
@@ -312,7 +322,15 @@ h6 {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
     .text-items {
-        width: 53%;
+        width: 21.5625em;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+
+    .text-items {
+        max-width: 495px;
     }
     
 }
@@ -332,6 +350,7 @@ h6 {
 
 }
 
+
 .text-items h3 {
     margin-bottom: 0.5em;
     font-size: 1.375rem;
@@ -341,9 +360,7 @@ h6 {
     font-size: 0.9375rem;
 }
 
-
-
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 359px) {
 
     .text-items h3 {
         font-size: 1rem;
